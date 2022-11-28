@@ -22,7 +22,7 @@ Expected_output_files: Expected output after this pipeline runs correctly<br/>
 The codes of this pipeline is written in Perl (v5.22.1) or in R (version 3.6.3)(only one code). <br/>
 
 ## System requirements
-Required operation system:Linux 64
+Required operation system:Linux 64<br/>
 
 ## Download
 
@@ -31,7 +31,7 @@ Click "Download ZIP" button<br/>
 Or<br/>
 Copy the cloneURL and type in the Terminal or equivalent:<br/> 
 ```
-$ git clone cloneURL<br/>
+$ git clone cloneURL
 ```
 
 ## Installation other software

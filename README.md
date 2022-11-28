@@ -2,23 +2,19 @@
 
 The BarBIQ pipeline is for processing the sequencing data (please note that this code only accept the phred+33 encoding system for the sequencing quality scores) obtained by BarBIQ method to identify Bar sequences (16S rRNA sequences) and cOTUs (cell-based taxa) and to quantify the identified cell numbers of each cOTU. 
 
-This is version 1.1.0.
-
+This is version 1.1.0
 Author: Jianshi Jin
-
 Supervisor: Katsuyuki Shiroguchi
 
 
 ## What's new in this version compared to version 1.0.0
+
 (1) For easy-to-use, all the processes are automated by two lines of commands. 
-
 (2) Mapping to the database RDP, GreenGene, or Silva is removed.
-
 (3) Installation is much easier.
 
-
 ## Contents
-BarBIQ_code: All codes of this pipeline 
+BarBIQ_code: All codes of this pipeline
 Demo: Example data which can be used for demonstration and requires 6.5 hours of running time
 Expected_output_files: Expected output after this pipeline runs correctly
 
@@ -29,6 +25,7 @@ The codes of this pipeline is written in Perl (v5.22.1) or in R (version 3.6.3)(
 Required operation system:Linux 64
 
 ## Download
+
 Clone/download this repository to your local computer
 Click "Download ZIP" button
 Or
@@ -39,7 +36,7 @@ $ git clone cloneURL
 (1) Install Perl(tested v5.22.1; https://www.perl.org) if need.
 (2) Install R(tested versions 3.5.1, 4.0.2, and 4.1.1; https://www.r-project.org) if need.
 (3) Install nucleotide-sequence-clusterizer (Version 0.0.7) which is available at http://kirill-kryukov.com/study/tools/nucleotide-sequence-clusterizer/
-(4) Install RDPTools which is available at https://github.com/rdpstaff/RDPTools 
+(4) Install RDPTools which is available at https://github.com/rdpstaff/RDPTools
 
 ## Install required perl modules
 Type in the Terminal or equivalent with adjustment of the path, "path-to", accordingly:

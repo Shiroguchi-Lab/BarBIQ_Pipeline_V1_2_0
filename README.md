@@ -76,7 +76,7 @@ In the output folder of the Step 2 contains the Bar sequences for all samples wi
 ## Documentation
 All the algorithms of this pipeline is described in the paper [High-throughput identification and quantification of single bacterial cells in the microbiota](https://www.nature.com/articles/s41467-022-28426-1).<br/>
 
-## How to cite the BarBIQ pipeline?
+## How to cite the BarBIQ pipeline
 ### Please cite the following two papers:
 Jin, J., Yamamoto, R., Takeuchi, T., Cui, G., Miyauchi,E., Hojo, N., Ikuta, K, Ohno, H. & Shiroguchi, K. High-throughput identification and quantification of single bacterial cells in the microbiota. Nat. commun., 13, 863, (2022). <br/>
 

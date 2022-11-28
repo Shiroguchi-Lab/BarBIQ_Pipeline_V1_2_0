@@ -64,9 +64,13 @@ $ path-to/BarBIQ_code_1_1_0/BarBIQ_Step_2.pl --in path-to/Demo/BarBIQ_example_in
 
 
 ## Key output results
-"BarBIQ_Quantification.xlsx" in the output folder of the Step 2 contains the raw counted cell numbers, absolute cell numbers per unit weight or volume, and proportional cell abundance of the cOTUs for each sample with the taxonomies predicted by RDP classifier. <br/>
-"BarBIQ_Bar_sequences.xlsx" in the output folder of the Step 2 contains the Bar sequences for all samples with the cOTU information. <br/>
-For the detailed information, please refer to the "ReadMe" sheet in each file. <br/>
+### "BarBIQ_Quantification.xlsx" 
+In the output folder of the Step 2 contains the raw counted cell numbers, absolute cell numbers per unit weight or volume, and proportional cell abundance of the cOTUs for each sample with the taxonomies predicted by RDP classifier. <br/>
+
+### "BarBIQ_Bar_sequences.xlsx" 
+In the output folder of the Step 2 contains the Bar sequences for all samples with the cOTU information. <br/>
+
+* For the detailed information, please refer to the "ReadMe" sheet in each file. <br/>
 
 
 ## Documentation

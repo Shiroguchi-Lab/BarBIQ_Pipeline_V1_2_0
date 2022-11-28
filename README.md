@@ -29,9 +29,9 @@ Required operation system:Linux 64<br/>
 Clone/download this repository to your local computer<br/>
 Click "Download ZIP" button<br/>
 Or<br/>
-Copy the cloneURL and type in the Terminal or equivalent:<br/> 
+Type in the Terminal or equivalent:<br/> 
 ```
-$ git clone cloneURL
+$ git clone Shiroguchi-Lab/BarBIQ_Pipeline_V1_1_0
 ```
 
 ## Installation other software

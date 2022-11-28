@@ -4,25 +4,25 @@ The BarBIQ pipeline is for processing the sequencing data (please note that this
 
 This is version 1.1.0\
 Author: Jianshi Jin\
-Supervisor: Katsuyuki Shiroguchi\
+Supervisor: Katsuyuki Shiroguchi<br/>
 
 
 ## What's new in this version compared to version 1.0.0
 
-(1) For easy-to-use, all the processes are automated by two lines of commands.\ 
-(2) Mapping to the database RDP, GreenGene, or Silva is removed.\
-(3) Installation is much easier.\
+(1) For easy-to-use, all the processes are automated by two lines of commands.<br/> 
+(2) Mapping to the database RDP, GreenGene, or Silva is removed.<br/>
+(3) Installation is much easier.<br/>
 
 ## Contents
-BarBIQ_code: All codes of this pipeline\
-Demo: Example data which can be used for demonstration and requires 6.5 hours of running time\
-Expected_output_files: Expected output after this pipeline runs correctly\
+BarBIQ_code: All codes of this pipeline<br/>
+Demo: Example data which can be used for demonstration and requires 6.5 hours of running time<br/>
+Expected_output_files: Expected output after this pipeline runs correctly<br/>
 
 ## Codes
-The codes of this pipeline is written in Perl (v5.22.1) or in R (version 3.6.3)(only one code).\ 
+The codes of this pipeline is written in Perl (v5.22.1) or in R (version 3.6.3)(only one code). <br/>
 
 ## System requirements
-Required operation system:Linux 64\
+Required operation system:Linux 64 <br/>
 
 ## Download
 

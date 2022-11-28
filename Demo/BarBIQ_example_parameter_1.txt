@@ -1,0 +1,29 @@
+# The directory where all the fastq files from a MiSeq run are saved, don't forget the last "/"
+Data_path:	Path-to/BarBIQ_Pipeline_V1_1_0/Demo/Miseq_Run_1/
+#
+# The fixed base information of the designed barcodes for the samples:
+Sample_fix_base1:	..................C....A....GT
+Sample_fix_base2:	..................G....T....CA
+Sample_fix_base3:	..................T....G....TC
+Sample_fix_base4:	..................A....C....AG
+#
+# The fixed base information of the designed barcodes for the spike in:
+SpikeIn_fix_base1:	..................T....A....TG
+SpikeIn_fix_base2:	..................A....G....CT
+SpikeIn_fix_base3:	..................C....T....AC
+SpikeIn_fix_base4:	..................G....C....GA
+#
+# The directory where all the codes are saved, don't forget the last "/"
+Perl_code_path:	Path-to/BarBIQ_Pipeline_V1_1_0/BarBIQ_code/
+#
+# The number of bases of the primer Biotin-Link-805R after "GCTCCTGCGTTCGGATCGTAGTCG"; when design new primers for, e.g., other regions of the 16S rRNA genes, please set the number based on your new primer 
+I1_length:	21
+#
+# The number of bases of the primer P7-R2P-341F after "CAAGCAGAAGACGGCATACGAGATGTGACTGGAGTTCCTTGGCACCCGAGAATTCCA"; when design new primers for, e.g., other regions of the 16S rRNA genes, please set the number based on your new primer
+R2_length:	17
+#
+# The installed nucleotide-sequence-clusterizer in the processing computer with its path
+nucleotide-sequence-clusterizer:	path-to/nucleotide-sequence-clusterizer 
+#
+# Maximum number of processes of the computer can be used
+Max_processes:	30

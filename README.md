@@ -31,7 +31,7 @@ Click "Download ZIP" button<br/>
 Or<br/>
 Type in the Terminal or equivalent:<br/> 
 ```
-$ git clone Shiroguchi-Lab/BarBIQ_Pipeline_V1_1_0
+$ git clone https://github.com/Shiroguchi-Lab/BarBIQ_Pipeline_V1_1_0.git
 ```
 
 ## Installation other software

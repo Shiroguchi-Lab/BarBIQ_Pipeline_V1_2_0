@@ -55,7 +55,7 @@ Type the following command with adjustment of the path, "path-to", accordingly:<
 $ path-to/BarBIQ_code_1_1_0/BarBIQ_Step_1.pl --in path-to/Demo/BarBIQ_example_inputfile_1.txt --p path-to/Demo/BarBIQ_example_parameter_1.txt
   ```
 
-###Step 2: For all samples
+### Step 2: For all samples
 Modify the files in the "Demo" folder, BarBIQ_example_inputfile_2.txt and BarBIQ_example_parameter_2.txt, for your own data (make sure to adjust the paths, "path-to", accordingly, even for the demonstration)<br/>
 Type the following command in the Terminal or equivalent with adjustment of the path, "path-to", accordingly:<br/>
   ```

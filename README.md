@@ -44,6 +44,7 @@ $ git clone https://github.com/Shiroguchi-Lab/BarBIQ_Pipeline_V1_1_0.git
 Type in the Terminal or equivalent with adjustment of the path, "path-to", accordingly:
 ```
 $ cd path-to/BarBIQ_code
+$ chmod a+x *
 $ ./BarBIQ_check_and_install_modules.pl
 ```
 

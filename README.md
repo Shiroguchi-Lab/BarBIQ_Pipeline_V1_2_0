@@ -15,7 +15,7 @@ Supervisor: Katsuyuki Shiroguchi<br/>
 
 ## Contents
 BarBIQ_code: All codes of this pipeline<br/>
-Demo: Example data which can be used for demonstration and requires 6.5 hours of running time<br/>
+Demo: Example data which can be used for demonstration and requires 6 + 0.5 hours of running time<br/>
 Expected_output_files: Expected output after this pipeline runs correctly<br/>
 
 ## Codes

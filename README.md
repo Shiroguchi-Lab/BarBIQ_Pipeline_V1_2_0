@@ -69,6 +69,7 @@ $ ./BarBIQ_check_and_install_modules.pl
 ## How to use the codes for real data or the demo data "Data_and_inputfiles_for_whole_processing"
 ### Step 1: For each sequencing run
 (A) Modify the "Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_inputfile_1.txt" and "Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_parameter_1.txt" for your own data (make sure to adjust the paths, "path-to", accordingly, even for the demonstration)<br/>
+* Details are explained in the file itself or in Instructions_prepare_input_files.txt<br/>
 
 (B) Type the following command with adjustment of the path, "path-to", accordingly:<br/>
   ```
@@ -77,6 +78,7 @@ $ path-to/BarBIQ_code/BarBIQ_Step_1.pl --in path-to/Demo/Data_and_inputfiles_for
 
 ### Step 2: For all samples
 (A) Modify the "Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_inputfile_2.txt" and "Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_parameter_2.txt" for your own data (make sure to adjust the paths, "path-to", accordingly, even for the demonstration)<br/>
+* Details are explained in the file itself or in Instructions_prepare_input_files.txt<br/>
 
 (B) Type the following command in the Terminal or equivalent with adjustment of the path, "path-to", accordingly:<br/>
   ```

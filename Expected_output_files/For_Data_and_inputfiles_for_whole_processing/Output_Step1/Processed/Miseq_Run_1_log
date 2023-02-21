@@ -1,0 +1,388 @@
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_Step_1.pl
+Your parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_inputfile_1.txt --p /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_parameter_1.txt
+Started at: Thu Feb 16 16:00:08 2023
+Inputfile is OK!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R1_Demo.fastq.gz_c.fasta --index S1 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 171
+The No. of kept reads: 196302
+The ratio of kept reads: 0.999129651402483
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R1_Demo.fastq.gz_c.fasta --index S2 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 180
+The No. of kept reads: 172338
+The ratio of kept reads: 0.998956630612458
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R1_Demo.fastq.gz_c.fasta --index S3 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 26
+The No. of kept reads: 25496
+The ratio of kept reads: 0.998981271060262
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R1_Demo.fastq.gz_c.fasta --index S4 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 35
+The No. of kept reads: 17626
+The ratio of kept reads: 0.998018232263179
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC1_S5_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC1_S5_R1_Demo.fastq.gz_c.fasta --index S5 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC1_S5_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 0
+The No. of kept reads: 208
+The ratio of kept reads: 1
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_quality_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC2_S6_R1_Demo.fastq.gz --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC2_S6_R1_Demo.fastq.gz_c.fasta --index S6 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+You are using the threshold of 4 as the window length for caclulate the average quality
+You are using the quality threshold of 15 to delete the reads
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC2_S6_R1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 0
+The No. of kept reads: 205
+The ratio of kept reads: 1
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_barcode_fix.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_sample.txt --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_sample.fasta --fixed /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/BarBIQ_example_fixed_base.txt --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Your inputfiles are:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R1_Demo.fastq.gz_c.fasta
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R1_Demo.fastq.gz_c.fasta
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R1_Demo.fastq.gz_c.fasta
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R1_Demo.fastq.gz_c.fasta
+Your fixed bases are:
+..................C....A....GT
+..................G....T....CA
+..................T....G....TC
+..................A....C....AG
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 91632
+The No. of kept reads: 320130
+The ratio of kept reads: 0.777463680475615
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_barcode_fix.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_std.txt --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_std.fasta --fixed /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/BarBIQ_example_fixed_base_std.txt --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Your inputfiles are:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC1_S5_R1_Demo.fastq.gz_c.fasta
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC2_S6_R1_Demo.fastq.gz_c.fasta
+Your fixed bases are:
+..................T....A....TG
+..................A....G....CT
+..................C....T....AC
+..................G....C....GA
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of deleted reads: 0
+The No. of kept reads: 413
+The ratio of kept reads: 1
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_barcode_clustering.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_all.txt --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_clusterizerD2 --soft /data/frank/nucleotide-sequence-clusterizer-0.0.7-linux64/nucleotide-sequence-clusterizer --d 2 --t 30 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Your inputfiles are:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_sample.fasta
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_std.fasta
+Inputfile is OK!
+Start to calculating:
+Merging files...
+File Merging finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_index_and_leakage.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_clusterizerD2 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1 --index /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_index.txt --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Your indexes are: indexes S1 S2 S3 S4 S5 S6
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+The No. of leakage reads: 1226
+The No. of kept reads: 319111
+The ratio of kept reads: 0.996172780540493
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_I1R2_by_R1.pl
+The parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_I1_Demo.fastq.gz --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R2_Demo.fastq.gz --cluster /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S1 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_I1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R2_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of unbarcoded reads: 39785
+The No. of barcoded reads: 156688
+The ratio of barcoded reads: 0.797503982735541
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_I1R2_by_R1.pl
+The parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_I1_Demo.fastq.gz --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R2_Demo.fastq.gz --cluster /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S2 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_I1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R2_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of unbarcoded reads: 27163
+The No. of barcoded reads: 145355
+The ratio of barcoded reads: 0.842549762923289
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_I1R2_by_R1.pl
+The parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_I1_Demo.fastq.gz --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R2_Demo.fastq.gz --cluster /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S3 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_I1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R2_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of unbarcoded reads: 15658
+The No. of barcoded reads: 9864
+The ratio of barcoded reads: 0.386490086983779
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_I1R2_by_R1.pl
+The parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_I1_Demo.fastq.gz --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R2_Demo.fastq.gz --cluster /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S4 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_I1_Demo.fastq.gz is unzipping...
+unzip finished!!!
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R2_Demo.fastq.gz is unzipping...
+unzip finished!!!
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of unbarcoded reads: 10870
+The No. of barcoded reads: 6791
+The ratio of barcoded reads: 0.384519562878659
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_average_quality_of_each_position.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_I1_all_R1.fastq --cut /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_I1_cut_position --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_I1_all_R1_ave_qual --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_average_quality_of_each_position.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_R2_all_R1.fastq --cut /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_R2_cut_position --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_R2_all_R1_ave_qual --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S1 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 19.0
+The number of barcodes for this sample is: 8254
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S2 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 13.3
+The number of barcodes for this sample is: 10900
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S3 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 30.9
+The number of barcodes for this sample is: 319
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S4 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 34.1
+The number of barcodes for this sample is: 199
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S5 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 1.0
+The number of barcodes for this sample is: 201
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic_reads_per_barcode_by_R1.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S6 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log
+The average reads per barcode is: 1.0
+The number of barcodes for this sample is: 201
+You are deleting the intermediate files
+Moving S1
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_R1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_I1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_I1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample1_S1_R2_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_R2_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S1	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Miseq_Run_1_S1
+Moving S2
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_R1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_I1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_I1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Sample2_S2_R2_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_R2_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S2	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Miseq_Run_1_S2
+Moving S3
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R2_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_R2_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_I1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_I1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control1_S3_R1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_R1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S3	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Miseq_Run_1_S3
+Moving S4
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_I1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_I1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R1_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_R1_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Control2_S4_R2_Demo.fastq	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_R2_Demo.fastq
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S4	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Miseq_Run_1_S4
+Moving S5
+Remove	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC1_S5_R1_Demo.fastq
+Remove	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S5
+Moving S6
+Remove	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/SIC2_S6_R1_Demo.fastq
+Remove	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S6
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S3_reads_per_barcode_aveReads_30.9_NoB_319	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S3_reads_per_barcode_aveReads_30.9_NoB_319
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S2_reads_per_barcode_aveReads_13.3_NoB_10900	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S2_reads_per_barcode_aveReads_13.3_NoB_10900
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_I1_all_R1_ave_qual	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_I1_all_R1_ave_qual
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_I1_cut_position	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_I1_cut_position
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S5_reads_per_barcode_aveReads_1.0_NoB_201	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S5_reads_per_barcode_aveReads_1.0_NoB_201
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S6_reads_per_barcode_aveReads_1.0_NoB_201	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S6_reads_per_barcode_aveReads_1.0_NoB_201
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_log	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_log
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_R2_all_R1_ave_qual	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_R2_all_R1_ave_qual
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_R2_cut_position	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_R2_cut_position
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S4_reads_per_barcode_aveReads_34.1_NoB_199	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S4_reads_per_barcode_aveReads_34.1_NoB_199
+Move	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Miseq_Run_1_S1_reads_per_barcode_aveReads_19.0_NoB_8254	as	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/Miseq_Run_1_S1_reads_per_barcode_aveReads_19.0_NoB_8254
+You are using the threshold of 295 to cut the reads I1
+You are using the threshold of 281 to cut the reads R2
+Barcode_Step_1.pl has done at:Thu Feb 16 22:45:22 2023

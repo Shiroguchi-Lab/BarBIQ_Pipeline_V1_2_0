@@ -1,0 +1,290 @@
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_Step_2.pl
+Your parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_inputfile_2.txt --p /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/BarBIQ_example_parameter_2.txt
+Started at: Tue Feb 21 14:07:37 2023
+Inputfile is OK!
+###############################################################################
+Now you are processing the sample S01
+Your output file is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_no_junk_deletion.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Sammple_1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic
+7804
+The max:7804
+Done
+Now you are processing the sample S02
+Your output file is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_no_junk_deletion.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Sammple_1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic
+9683
+The max:9683
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_identity_Editdis.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12_normalization /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You only have one replicate, so the threshold shoud be 0.01
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_delete_low_count.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12_normalization_clean /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You have 1 repeats in this experiment, so the suggested threshold to delete the possible junk sequencese are:
+>=6
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_identity_Editdis.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12_normalization /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You only have one replicate, so the threshold shoud be 0.01
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_repeat_delete_low_count.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12_normalization_clean /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You have 1 repeats in this experiment, so the suggested threshold to delete the possible junk sequencese are:
+>=6
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_merge_all_samples.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12_normalization_clean_del_low /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12_normalization_clean_del_low /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_step13 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You totally have 2 samples
+Sammple_1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S02_step12_normalization_clean_del_low
+Sammple_2:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/S01_step12_normalization_clean_del_low
+Done
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_library.pl
+Your parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_step13 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_droplets_overlap.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link_Rev --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link_Rev
+Your bar-sequence file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_droplets_overlap.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link_Rev --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link_Rev
+Your bar-sequence file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs
+Inputfile is OK!
+Start to calculating:
+Done!!!
+###############################################################################
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_merge_all_overlaps.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S1_Rev_DropOver /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S2_Rev_DropOver /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You have 2 samples including replicates in this experiment
+Sammple_1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S1_Rev_DropOver
+Sammple_2:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S2_Rev_DropOver
+Done
+Now you are running BarBIQ_final_fitting_OD.r
+Your input file is: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap
+Your index file is: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Index_Overlap
+Your output file is: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/EDrops.txt
+Your log file is: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_overlap_selete_by_PV_seq.pl
+Your parameters are: --overlap /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap --PV /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/Estimated_confidence_intervals_of_log10_Poisson_Overlap_by_simulation --EDrop /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/EDrops.txt --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your PV file /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/Estimated_confidence_intervals_of_log10_Poisson_Overlap_by_simulation is OK!
+S1	102790.829437297
+S2	87358.0464736307
+You have 2 repeats
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_overlap_selete_by_PV_seq_threshold.pl
+Your parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_PV_list 0.5 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You have 2 repeats
+now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_overlap_selete_by_PV_step3.pl
+Your parameters are: --overlap /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap --select /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_PV_list_0.5 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_overlap_groups.pl
+Your parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_select /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_lib_COTU_ID.pl
+The parameters are: --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs --group /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_select_groups --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_groups_COTU_ID.pl
+The parameters are: --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --group /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_select_groups --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+###############################################################################
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_add_bacteria_name_to_final_rep_seq_file.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev --COTU /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your lib_COUT file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfile is OK!
+Start to calculating:
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_add_bacteria_name_to_final_rep_seq_file.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev --COTU /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your lib_COUT file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfile is OK!
+Start to calculating:
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_count_bacteria.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_count_bacteria.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_retrieving_false_negative_sequence_types.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Your Bar-sequence data is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfiles are OK!
+Start to calculating:
+Reviewing the original sequences...
+Finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_add_bacteria_name_to_final_rep_seq_file.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev --COTU /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your lib_COUT file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfile is OK!
+Start to calculating:
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_add_bacteria_name_to_final_rep_seq_file.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev --COTU /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your lib_COUT file is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU
+Inputfile is OK!
+Start to calculating:
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_count_bacteria.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_count_bacteria.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID
+Inputfile is OK!
+Start to calculating:
+Done!!!
+###############################################################################
+Your are processing the control group 1
+Your output file is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S4/Control2_S4_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID_bac_count
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S3/Control1_S3_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID_bac_count
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID_bac_count
+Your inputfile is /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_Rev_ID_bac_count
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_compare_bacteria_count.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S1_Bac_Count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S2_Bac_Count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S3_Bac_Count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S4_Bac_Count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Sammple_S1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S1_Bac_Count
+Sammple_S2:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S2_Bac_Count
+Sammple_S3:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S3_Bac_Count
+Sammple_S4:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Sample_S4_Bac_Count
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_review_contamination_bac_123rep.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1 --IF /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1_IF --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You are using size factor 1 for the Blank control data, if the factor is not 1 means your used different number of droplets for the sample measurement and blank!!!
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1
+Inputfiles are OK!
+Start to calculating:
+Sample name: S01
+You only have one repeat of this sample, so using sampling nosie as sd!
+You only have 2 repeats of the blank, so using measued sd!
+Sample name: S02
+You only have one repeat of this sample, so using sampling nosie as sd!
+You only have 2 repeats of the blank, so using measued sd!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_compare_datasets.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1_ave_del_contamination /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_cell_count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Compare sample 1:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Cell_count_1_ave_del_contamination
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_lib_COTU_clean.pl
+The parameters are: --bcc /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_cell_count --COTULIB /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_LIB_fastafile.pl
+The parameters are: --lib /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+You are using assignment confidence cutoff 0.5 for the RDP classifier
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_tree_rewrite_new.pl
+The parameters are: /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean_taxanomy.txt /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_Taxonomy_groups.pl
+The parameters are: --group /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_select_groups_COTU --taxa /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean_taxanomy.txt_Rewrite --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_Taxonomy_COTU.pl
+The parameters are: --lib /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU --group /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_Overlap_select_groups_COTU_RDPpdt_taxonomy --taxa /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean_taxanomy.txt_Rewrite --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_add_Taxonomy_to_bac_count_publish.pl
+The parameters are: --bacc /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_cell_count --taxa /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean_taxanomy.txt_Rewrite_COTU --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_bac_con_nomalization_xlsx.pl
+The parameters are: --count /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_cell_count_annotation_RDP_classifier.txt --total /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Total_concentration.txt --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/BarBIQ_Quantification.xlsx --taxa Classifier --cutoff 0.5 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+You have samples:
+S01
+S02
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_bar_seq_xlsx.pl
+The parameters are: --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/BarBIQ_Bar_sequences.xlsx --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+In total there are 163 Bar sequences
+Done
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_final_bar_seq_fasta_with_taxanomy.pl
+The parameters are: --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_BarSeqs_COTU_clean --taxa /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/All_samples_cell_count_annotation_RDP_classifier.txt --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/BarBIQ_Bar_sequences.fasta --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/Output_Step2_log
+In total there are 163 Bar sequences
+Done
+BarBIQ_Step_2.pl has done at:Tue Feb 21 14:11:38 2023

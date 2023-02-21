@@ -1,0 +1,340 @@
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_M_I1R2.pl
+Your parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_I1_Demo.fastq --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_R2_Demo.fastq --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1 --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Miseq_Run_1_S1 --end-I1 295 --end-R2 281 --primer-I1 21 --primer-R2 17 --middle No --pip /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/ --soft /data/frank/nucleotide-sequence-clusterizer-0.0.7-linux64/nucleotide-sequence-clusterizer --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Started at: Thu Feb 16 16:01:33 2023
+Inputfile is OK!
+Start to calculating:
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_end_primer_and_barcode.pl
+Your parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_I1_Demo.fastq --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_R2_Demo.fastq --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Miseq_Run_1_S1 --end-I1 295 --end-R2 281 --primer-I1 21 --primer-R2 17 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Inputfile is OK!
+Start to calculating:
+M02663:109:000000000-BWCMK:1:1101:15148:24964 has "N"
+M02663:109:000000000-BWCMK:1:1101:22937:24983 has "N"
+M02663:109:000000000-BWCMK:1:1101:18223:24999 has "N"
+M02663:109:000000000-BWCMK:1:1101:23065:25004 has "N"
+M02663:109:000000000-BWCMK:1:1102:14897:24925 has "N"
+M02663:109:000000000-BWCMK:1:1102:11668:24930 has "N"
+M02663:109:000000000-BWCMK:1:1102:15149:24939 has "N"
+M02663:109:000000000-BWCMK:1:1102:17675:24946 has "N"
+M02663:109:000000000-BWCMK:1:1102:21104:24952 has "N"
+M02663:109:000000000-BWCMK:1:1102:22108:24963 has "N"
+M02663:109:000000000-BWCMK:1:1103:8525:24921 has "N"
+M02663:109:000000000-BWCMK:1:1103:9450:24966 has "N"
+M02663:109:000000000-BWCMK:1:1103:13451:24972 has "N"
+M02663:109:000000000-BWCMK:1:1103:21284:24976 has "N"
+10%
+M02663:109:000000000-BWCMK:1:1104:10879:24913 has "N"
+M02663:109:000000000-BWCMK:1:1104:12630:24920 has "N"
+M02663:109:000000000-BWCMK:1:1104:12784:24921 has "N"
+M02663:109:000000000-BWCMK:1:1104:10085:24926 has "N"
+M02663:109:000000000-BWCMK:1:1104:13552:24933 has "N"
+M02663:109:000000000-BWCMK:1:1104:19719:24934 has "N"
+M02663:109:000000000-BWCMK:1:1104:16027:24939 has "N"
+M02663:109:000000000-BWCMK:1:1104:12822:24949 has "N"
+M02663:109:000000000-BWCMK:1:1104:20209:24954 has "N"
+M02663:109:000000000-BWCMK:1:1104:13545:24956 has "N"
+M02663:109:000000000-BWCMK:1:1105:10454:24905 has "N"
+M02663:109:000000000-BWCMK:1:1105:14090:24942 has "N"
+M02663:109:000000000-BWCMK:1:1105:15633:24942 has "N"
+M02663:109:000000000-BWCMK:1:1105:10269:24952 has "N"
+M02663:109:000000000-BWCMK:1:1106:16451:24919 has "N"
+M02663:109:000000000-BWCMK:1:1106:8297:24926 has "N"
+M02663:109:000000000-BWCMK:1:1106:14481:24945 has "N"
+M02663:109:000000000-BWCMK:1:1106:21284:24962 has "N"
+M02663:109:000000000-BWCMK:1:1106:20976:24970 has "N"
+M02663:109:000000000-BWCMK:1:1107:13267:24910 has "N"
+M02663:109:000000000-BWCMK:1:1107:16215:24916 has "N"
+M02663:109:000000000-BWCMK:1:1107:13482:24953 has "N"
+M02663:109:000000000-BWCMK:1:1107:22263:24957 has "N"
+M02663:109:000000000-BWCMK:1:1107:19827:24967 has "N"
+20%
+M02663:109:000000000-BWCMK:1:1108:8618:24919 has "N"
+M02663:109:000000000-BWCMK:1:1108:17874:24923 has "N"
+M02663:109:000000000-BWCMK:1:1108:17532:24926 has "N"
+M02663:109:000000000-BWCMK:1:1108:17657:24944 has "N"
+M02663:109:000000000-BWCMK:1:1108:9797:24948 has "N"
+M02663:109:000000000-BWCMK:1:1108:11887:24950 has "N"
+M02663:109:000000000-BWCMK:1:1108:19545:24951 has "N"
+M02663:109:000000000-BWCMK:1:1109:15789:24922 has "N"
+M02663:109:000000000-BWCMK:1:1109:17729:24934 has "N"
+M02663:109:000000000-BWCMK:1:1109:20090:24950 has "N"
+M02663:109:000000000-BWCMK:1:1110:17321:24938 has "N"
+M02663:109:000000000-BWCMK:1:1110:22731:24939 has "N"
+M02663:109:000000000-BWCMK:1:1110:18384:24941 has "N"
+M02663:109:000000000-BWCMK:1:1110:23026:24967 has "N"
+M02663:109:000000000-BWCMK:1:1111:11058:24911 has "N"
+M02663:109:000000000-BWCMK:1:1111:15697:24917 has "N"
+M02663:109:000000000-BWCMK:1:1111:17810:24923 has "N"
+M02663:109:000000000-BWCMK:1:1111:23296:24942 has "N"
+M02663:109:000000000-BWCMK:1:1111:22937:24953 has "N"
+M02663:109:000000000-BWCMK:1:1111:13564:24955 has "N"
+30%
+M02663:109:000000000-BWCMK:1:1112:13360:24923 has "N"
+M02663:109:000000000-BWCMK:1:1112:9057:24934 has "N"
+M02663:109:000000000-BWCMK:1:1112:13007:24935 has "N"
+M02663:109:000000000-BWCMK:1:1112:10511:24937 has "N"
+M02663:109:000000000-BWCMK:1:1113:9443:24904 has "N"
+M02663:109:000000000-BWCMK:1:1113:8746:24908 has "N"
+M02663:109:000000000-BWCMK:1:1113:8410:24927 has "N"
+M02663:109:000000000-BWCMK:1:1113:19798:24928 has "N"
+M02663:109:000000000-BWCMK:1:1113:14428:24939 has "N"
+M02663:109:000000000-BWCMK:1:1113:12333:24944 has "N"
+M02663:109:000000000-BWCMK:1:1113:12694:24945 has "N"
+M02663:109:000000000-BWCMK:1:1113:19832:24950 has "N"
+M02663:109:000000000-BWCMK:1:1113:13538:24964 has "N"
+M02663:109:000000000-BWCMK:1:1114:8574:24922 has "N"
+M02663:109:000000000-BWCMK:1:1114:9780:24927 has "N"
+M02663:109:000000000-BWCMK:1:1114:16249:24946 has "N"
+M02663:109:000000000-BWCMK:1:1114:18772:24947 has "N"
+M02663:109:000000000-BWCMK:1:1114:14477:24951 has "N"
+M02663:109:000000000-BWCMK:1:1114:19785:24958 has "N"
+M02663:109:000000000-BWCMK:1:1114:21607:24958 has "N"
+M02663:109:000000000-BWCMK:1:1115:8349:24925 has "N"
+M02663:109:000000000-BWCMK:1:1115:15466:24943 has "N"
+M02663:109:000000000-BWCMK:1:1115:22144:24957 has "N"
+M02663:109:000000000-BWCMK:1:1115:15790:24959 has "N"
+M02663:109:000000000-BWCMK:1:1115:12381:24971 has "N"
+40%
+M02663:109:000000000-BWCMK:1:1116:8708:24926 has "N"
+M02663:109:000000000-BWCMK:1:1116:21533:24946 has "N"
+M02663:109:000000000-BWCMK:1:1117:10622:24939 has "N"
+M02663:109:000000000-BWCMK:1:1117:17170:24959 has "N"
+M02663:109:000000000-BWCMK:1:1117:23292:24964 has "N"
+M02663:109:000000000-BWCMK:1:1117:22743:24981 has "N"
+M02663:109:000000000-BWCMK:1:1118:20432:24934 has "N"
+M02663:109:000000000-BWCMK:1:1118:20320:24945 has "N"
+M02663:109:000000000-BWCMK:1:1118:17117:24953 has "N"
+M02663:109:000000000-BWCMK:1:1118:15490:24962 has "N"
+M02663:109:000000000-BWCMK:1:1119:17986:24936 has "N"
+M02663:109:000000000-BWCMK:1:1119:19494:24955 has "N"
+M02663:109:000000000-BWCMK:1:1119:17593:24960 has "N"
+M02663:109:000000000-BWCMK:1:1119:18726:24964 has "N"
+M02663:109:000000000-BWCMK:1:1119:17796:24966 has "N"
+M02663:109:000000000-BWCMK:1:1119:10923:24970 has "N"
+M02663:109:000000000-BWCMK:1:1119:20629:24973 has "N"
+M02663:109:000000000-BWCMK:1:1119:15322:24980 has "N"
+50%
+M02663:109:000000000-BWCMK:1:2101:10356:25088 has "N"
+M02663:109:000000000-BWCMK:1:2101:17836:25122 has "N"
+M02663:109:000000000-BWCMK:1:2101:19947:25135 has "N"
+M02663:109:000000000-BWCMK:1:2102:11266:25077 has "N"
+M02663:109:000000000-BWCMK:1:2102:19811:25081 has "N"
+M02663:109:000000000-BWCMK:1:2102:19431:25090 has "N"
+M02663:109:000000000-BWCMK:1:2102:20929:25115 has "N"
+M02663:109:000000000-BWCMK:1:2103:17133:25081 has "N"
+M02663:109:000000000-BWCMK:1:2103:11188:25117 has "N"
+M02663:109:000000000-BWCMK:1:2103:21709:25122 has "N"
+60%
+M02663:109:000000000-BWCMK:1:2104:12606:25064 has "N"
+M02663:109:000000000-BWCMK:1:2104:11207:25079 has "N"
+M02663:109:000000000-BWCMK:1:2104:14813:25092 has "N"
+M02663:109:000000000-BWCMK:1:2104:8731:25102 has "N"
+M02663:109:000000000-BWCMK:1:2104:15672:25119 has "N"
+M02663:109:000000000-BWCMK:1:2104:19909:25130 has "N"
+M02663:109:000000000-BWCMK:1:2105:14960:25072 has "N"
+M02663:109:000000000-BWCMK:1:2105:20252:25083 has "N"
+M02663:109:000000000-BWCMK:1:2105:20085:25088 has "N"
+M02663:109:000000000-BWCMK:1:2105:21671:25091 has "N"
+M02663:109:000000000-BWCMK:1:2105:9319:25095 has "N"
+M02663:109:000000000-BWCMK:1:2105:17720:25118 has "N"
+M02663:109:000000000-BWCMK:1:2105:15434:25119 has "N"
+M02663:109:000000000-BWCMK:1:2106:10447:25052 has "N"
+M02663:109:000000000-BWCMK:1:2106:13668:25067 has "N"
+M02663:109:000000000-BWCMK:1:2107:21128:25082 has "N"
+M02663:109:000000000-BWCMK:1:2107:17261:25086 has "N"
+M02663:109:000000000-BWCMK:1:2107:16380:25095 has "N"
+M02663:109:000000000-BWCMK:1:2107:20096:25116 has "N"
+M02663:109:000000000-BWCMK:1:2107:19077:25130 has "N"
+70%
+M02663:109:000000000-BWCMK:1:2108:13901:25079 has "N"
+M02663:109:000000000-BWCMK:1:2108:17653:25086 has "N"
+M02663:109:000000000-BWCMK:1:2108:12695:25092 has "N"
+M02663:109:000000000-BWCMK:1:2108:21790:25097 has "N"
+M02663:109:000000000-BWCMK:1:2108:9694:25111 has "N"
+M02663:109:000000000-BWCMK:1:2108:11586:25114 has "N"
+M02663:109:000000000-BWCMK:1:2108:17357:25125 has "N"
+M02663:109:000000000-BWCMK:1:2109:12217:25072 has "N"
+M02663:109:000000000-BWCMK:1:2109:11266:25077 has "N"
+M02663:109:000000000-BWCMK:1:2109:11741:25085 has "N"
+M02663:109:000000000-BWCMK:1:2110:16252:25087 has "N"
+M02663:109:000000000-BWCMK:1:2110:18027:25089 has "N"
+M02663:109:000000000-BWCMK:1:2110:10299:25101 has "N"
+M02663:109:000000000-BWCMK:1:2110:12225:25108 has "N"
+M02663:109:000000000-BWCMK:1:2110:17198:25121 has "N"
+M02663:109:000000000-BWCMK:1:2111:14132:25073 has "N"
+M02663:109:000000000-BWCMK:1:2111:10693:25077 has "N"
+M02663:109:000000000-BWCMK:1:2111:12756:25088 has "N"
+M02663:109:000000000-BWCMK:1:2111:18906:25093 has "N"
+M02663:109:000000000-BWCMK:1:2111:11902:25110 has "N"
+M02663:109:000000000-BWCMK:1:2111:14101:25116 has "N"
+M02663:109:000000000-BWCMK:1:2111:15611:25121 has "N"
+80%
+M02663:109:000000000-BWCMK:1:2112:13638:25083 has "N"
+M02663:109:000000000-BWCMK:1:2112:14049:25099 has "N"
+M02663:109:000000000-BWCMK:1:2112:16406:25100 has "N"
+M02663:109:000000000-BWCMK:1:2112:13630:25105 has "N"
+M02663:109:000000000-BWCMK:1:2112:22118:25110 has "N"
+M02663:109:000000000-BWCMK:1:2113:10112:25081 has "N"
+M02663:109:000000000-BWCMK:1:2113:14124:25105 has "N"
+M02663:109:000000000-BWCMK:1:2113:12981:25112 has "N"
+M02663:109:000000000-BWCMK:1:2113:20775:25117 has "N"
+M02663:109:000000000-BWCMK:1:2113:18565:25121 has "N"
+M02663:109:000000000-BWCMK:1:2113:20034:25134 has "N"
+M02663:109:000000000-BWCMK:1:2113:22854:25158 has "N"
+M02663:109:000000000-BWCMK:1:2114:16313:25078 has "N"
+M02663:109:000000000-BWCMK:1:2114:8552:25107 has "N"
+M02663:109:000000000-BWCMK:1:2114:22324:25107 has "N"
+M02663:109:000000000-BWCMK:1:2114:14625:25125 has "N"
+M02663:109:000000000-BWCMK:1:2115:10490:25060 has "N"
+M02663:109:000000000-BWCMK:1:2115:9952:25062 has "N"
+M02663:109:000000000-BWCMK:1:2115:12665:25070 has "N"
+M02663:109:000000000-BWCMK:1:2115:17090:25076 has "N"
+M02663:109:000000000-BWCMK:1:2115:13537:25097 has "N"
+M02663:109:000000000-BWCMK:1:2115:17744:25111 has "N"
+M02663:109:000000000-BWCMK:1:2115:12673:25112 has "N"
+90%
+M02663:109:000000000-BWCMK:1:2116:9389:25068 has "N"
+M02663:109:000000000-BWCMK:1:2116:20731:25074 has "N"
+M02663:109:000000000-BWCMK:1:2116:21576:25077 has "N"
+M02663:109:000000000-BWCMK:1:2116:17792:25086 has "N"
+M02663:109:000000000-BWCMK:1:2116:19770:25086 has "N"
+M02663:109:000000000-BWCMK:1:2116:11975:25089 has "N"
+M02663:109:000000000-BWCMK:1:2116:20123:25095 has "N"
+M02663:109:000000000-BWCMK:1:2116:11856:25097 has "N"
+M02663:109:000000000-BWCMK:1:2116:17314:25102 has "N"
+M02663:109:000000000-BWCMK:1:2116:13007:25107 has "N"
+M02663:109:000000000-BWCMK:1:2116:11835:25107 has "N"
+M02663:109:000000000-BWCMK:1:2116:21789:25130 has "N"
+M02663:109:000000000-BWCMK:1:2116:21286:25131 has "N"
+M02663:109:000000000-BWCMK:1:2116:22431:25139 has "N"
+M02663:109:000000000-BWCMK:1:2117:12889:25075 has "N"
+M02663:109:000000000-BWCMK:1:2117:9208:25088 has "N"
+M02663:109:000000000-BWCMK:1:2117:10410:25119 has "N"
+M02663:109:000000000-BWCMK:1:2117:11263:25121 has "N"
+M02663:109:000000000-BWCMK:1:2117:17535:25137 has "N"
+M02663:109:000000000-BWCMK:1:2117:21581:25145 has "N"
+M02663:109:000000000-BWCMK:1:2118:20705:25086 has "N"
+M02663:109:000000000-BWCMK:1:2118:22873:25095 has "N"
+M02663:109:000000000-BWCMK:1:2118:10095:25120 has "N"
+M02663:109:000000000-BWCMK:1:2118:19740:25123 has "N"
+M02663:109:000000000-BWCMK:1:2118:19952:25137 has "N"
+M02663:109:000000000-BWCMK:1:2119:19670:25082 has "N"
+M02663:109:000000000-BWCMK:1:2119:19406:25114 has "N"
+M02663:109:000000000-BWCMK:1:2119:21366:25151 has "N"
+The No. of unbarcoded reads: 39785
+The No. of barcoded reads: 156688
+The ratio of barcoded reads: 0.797503982735541
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_one.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1 --soft /data/frank/nucleotide-sequence-clusterizer-0.0.7-linux64/nucleotide-sequence-clusterizer --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+You are using distance: 3
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean
+Inputfile is OK!
+Start to calculating:
+sorting...
+File sorting finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_two.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your are using the threshold_ratio of 0.75 and the threshold_quality of 15
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_shift.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+You are using the threshold of 7 (number of bases) to consider the shift
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2
+Inputfile is OK!
+Start to calculating:
+Sorting by cluster ID...
+File sorting finished!!!
+Totally found 73 shifts of I1, and start to delete them.....
+Totally found 20 shifts of R2, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link_error.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_indels.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your inputfile is:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr
+Inputfile is OK!
+Start to calculating:
+Totally found 48 indels, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_chimeras.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your are using the threshold of 0.1 to delete the chimeras
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels
+Inputfile is OK!
+Start to calculating:
+TGTTTGCTCCCCACGCTTTCGAGCCTCAACGTCAGTTACGGTCCAGTAAGCCGCCTTCGCCACCGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCGCTTACCCCTCCCGCACTCTAGTTCGCCAGTTTCCAAAGCAGTTCCGCAGTTAAGCTGCGGCATTTCACTCCAGACTTGGCGCACCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTACTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAGCTTTACGTAACGAATTACTTCTTCACTCACGCGGCGTCGCTGCATCAGGGTTTCCCCCATTGTGCAATATTCCCCA has 2 parents
+TGTTTGCTCCCCACGCTTTCGAGCCTCAACGTCAGTTACAGTCCAGTAAGCCGCCTTCGCCACTGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCGCCTGCCCCTCCTGCACTCCAGCCCGGCAGTTTCCAAAGCACTTCCAACGTTAAGCGCTGGATTTTCACTTCAGACTTGTCTGGCCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTACTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAGCTTTACATCACGAATGACTTCTTCACTCACGCGGCGTTGCTGCATCAGGGTTTCCCCCATTGTGCAATATTCCCCA has 2 parents
+TGTTTGCTCCCCACGCCTTCGAGCCTCAACGTCAGTTGCAGTCCAGCAGGCCGCCTTCGCCACTGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCGCCTGCCCCTCCTGCACTCCAGCCCGGCAGTTTCCAAAGCACTTCCAACGTTAAGCGCTGGATTTTCACTTCAGACTTGTCTGGCCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTACTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAGCTTTACATCACGAATGACTTCTTCACTCACGCGGCGTTGCTGCATCAGGGTTTCCCCCATTGTGCAATATTCCCCA has 2 parents
+TGTTTGCTCCCCACGCTTTCGAGCCTCAACGTCAGTCATCGTCCAGCAAGCCGCCTTCGCCACTGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCACTTGCCTCTCCGACACTCCAGCCACACAGTTCCAAATGCAGTCCCGGGGTTGAGCCCCGGGCTTTCACATCTGGCTTGCATCGCCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTAGTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAGCTTTACATACCGAAATACTTCTTCACTCACGCGGCGTCGCTGCATCAGGGTTTCCCCCATTGTGCAATATTCCCCA has 3 parents
+TGTTTGCTCCCCACGCTTTCGAGCCTCAACGTCAGTTACGGTCCAGCAGGCCGCCTTCGCCGCCGGTGTTCCTCCTGATATCTACGCATTTCACCGCTACACCAGGAATTCCGCCTGCCCCTCCCGCACTCCAGCTTAACAGTTTCCAGAGCAGTCCCGGGGTTGGGCCCCGGGCTTTCACTCCGGACTTGCTCTGCCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTAGTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAGCTTTACATACCGAAATACTTCTTCACTCACGCGGCGTCGCTGCATCAGGGTTTCCCCCATTGTGCAATATTCCCCA has 3 parents
+TGTTTGCTCCCCACGCTTTCGAGCCTCAGCGTCAGTAGTCGTCCAGTAAGCCGCCTTCGCCACTGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCACTTGCCTCTCCGACACTCCAGCCACACAGTTCCAAATGCAGTCCCGGGGTTGAGCCCCGGGCTTTCACATCTGGCTTGCATCGCCGTCTACGCTCCCTTTACACCCAGTAAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTAGTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAAGTTTACATACCGAAATACTTCATCCTTCACGCGGCGTCGCTGCATCAGGCTTTCGCCCATTGTGCAATATTCCCCA has 2 parents
+TGTTTGCTCCCCACGCTTTCGAGCCTCAGCGTCAGTAGTCGTCCAGTAAGCCGCCTTCGCCACTGGTGTTCCTCCTAATATCTACGCATTTCACCGCTACACTAGGAATTCCGCTTACCCCTCCGACACTCCAGCCTGGCAGTTTCCAATGCACTCCCGGGGTTGGGCCCCGGGTTTTCACATCAGACTTGCCATGCCGCCTGCGCTCCCTTTACGCCCAGTGAATCCGGATAACGCTTGCCCCCTACGTATTACCGCGGCTGCTGGCACGTAGTTAGCCGGGGCTTCTTAGTCAGGTACCGTCATTTTCTTCCCTGCTGATAGAAGTTTACATACCGAAATACTTCATCCTTCACGCGGCGTCGCTGCATCAGGCTTTCGCCCATTGTGCAATATTCCCCA has 2 parents
+The number of kept seqs:7825
+The number of deleted seqs:31
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_similar.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+You are using the threshold of 0.2 to delete the substitutions+indels
+You are using the threshold of 0.2 to delete the substitutions
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Inputfiles are OK!
+Start to calculating:
+start to statistic the inputfile......
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_two.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2 --ratio 0.1 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your are using the threshold_ratio of 0.1 and the threshold_quality of 15
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_shift.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+You are using the threshold of 7 (number of bases) to consider the shift
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2
+Inputfile is OK!
+Start to calculating:
+Sorting by cluster ID...
+File sorting finished!!!
+Totally found 56 shifts of I1, and start to delete them.....
+Totally found 12 shifts of R2, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift_link --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/Processed/S1/Sample1_S1_clean_sub1_0.1_sub2_shift
+Inputfile is OK!
+Start to calculating:
+Done!!!
+You are going to delete the intermediate files
+/data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_M_I1R2.pl has done at:Thu Feb 16 21:05:32 2023

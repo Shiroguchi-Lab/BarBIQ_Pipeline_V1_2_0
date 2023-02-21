@@ -1,0 +1,129 @@
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_M_I1R2.pl
+Your parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_I1_Demo_S.fastq --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_R2_Demo_S.fastq --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2 --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Miseq_Run_1_Small_S2 --end-I1 294 --end-R2 271 --primer-I1 21 --primer-R2 17 --middle No --pip /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/ --soft /data/frank/nucleotide-sequence-clusterizer-0.0.7-linux64/nucleotide-sequence-clusterizer --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Started at: Thu Feb 16 15:25:47 2023
+Inputfile is OK!
+Start to calculating:
+Now you are running program: /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clean_end_primer_and_barcode.pl
+Your parameters are: --I1 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_I1_Demo_S.fastq --R2 /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_R2_Demo_S.fastq --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean --bar /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Miseq_Run_1_Small_S2 --end-I1 294 --end-R2 271 --primer-I1 21 --primer-R2 17 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Inputfile is OK!
+Start to calculating:
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+The No. of unbarcoded reads: 177
+The No. of barcoded reads: 23
+The ratio of barcoded reads: 0.115
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_one.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1 --soft /data/frank/nucleotide-sequence-clusterizer-0.0.7-linux64/nucleotide-sequence-clusterizer --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+You are using distance: 3
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean
+Inputfile is OK!
+Start to calculating:
+sorting...
+File sorting finished!!!
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_two.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your are using the threshold_ratio of 0.75 and the threshold_quality of 15
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_shift.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+You are using the threshold of 7 (number of bases) to consider the shift
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2
+Inputfile is OK!
+Start to calculating:
+Sorting by cluster ID...
+File sorting finished!!!
+Totally found 0 shifts of I1, and start to delete them.....
+Totally found 0 shifts of R2, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link_error.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_indels.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your inputfile is:	/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr
+Inputfile is OK!
+Start to calculating:
+Totally found 0 indels, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_chimeras.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your are using the threshold of 0.1 to delete the chimeras
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels
+Inputfile is OK!
+Start to calculating:
+The number of kept seqs:1
+The number of deleted seqs:0
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_similar.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+You are using the threshold of 0.2 to delete the substitutions+indels
+You are using the threshold of 0.2 to delete the substitutions
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_statistic.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar_statistic --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_sub2_shift_link_derr_indels_chimeras_similar
+Inputfiles are OK!
+Start to calculating:
+start to statistic the inputfile......
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_clustering_step_two.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2 --ratio 0.1 --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your are using the threshold_ratio of 0.1 and the threshold_quality of 15
+Your inputfiles is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1
+Inputfile is OK!
+Start to calculating:
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_shift.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2 --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+You are using the threshold of 7 (number of bases) to consider the shift
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2
+Inputfile is OK!
+Start to calculating:
+Sorting by cluster ID...
+File sorting finished!!!
+Totally found 0 shifts of I1, and start to delete them.....
+Totally found 0 shifts of R2, and start to delete them.....
+Done!!!
+Now you are runing /data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_sub_link.pl
+The parameters are: --in /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift --out /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift_link --log /data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_log
+Your inputfile is:
+/data/frank/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_quick_testing/For_Step1/Miseq_Run_1_Small/Processed/S2/Sample2_S2_clean_sub1_0.1_sub2_shift
+Inputfile is OK!
+Start to calculating:
+Done!!!
+You are going to delete the intermediate files
+/data/frank/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/BarBIQ_M_I1R2.pl has done at:Thu Feb 16 15:26:20 2023

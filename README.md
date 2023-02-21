@@ -11,7 +11,7 @@ Supervisor: Katsuyuki Shiroguchi<br/>
 
 (1) In BarBIQ_Step_2.pl, the lowest-level taxon of each cOTU predicted by the RDP classifier with a classification bootstrap confidence equal or higher than a given threshold (between 0 and 1, which can be set up in the BarBIQ_example_parameter_2.txt file before running BarBIQ_Step_2.pl) is printed as the last column of the "Absolute-concentration" sheet in BarBIQ_Quantification.xlsx; for details about the classification bootstrap confidence in RDP classifer, please refer to https://github.com/rdpstaff/classifier and https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3965039/.<br/> 
 
-(2) An optional process is added. For changing the threshold of classification bootstrap confidence to print the lowest-level taxon (see above (1)) after the processing of BarBIQ_Step_2.pl, the code BarBIQ_final_bac_con_nomalization_xlsx.pl can be run independetly with a given threshold (between 0 and 1) (an instruction to use this code is newly provided below).<br/>
+(2) An optional process is added. For changing the threshold of classification bootstrap confidence to print the lowest-level taxon (see above (1)) after the processing of BarBIQ_Step_2.pl, the code BarBIQ_final_bac_con_nomalization_xlsx.pl can be run independently with a given threshold (between 0 and 1) (an instruction to use this code is newly provided below).<br/>
 
 (3) In BarBIQ_Step_2.pl, a new file is output and named as BarBIQ_Bar_sequences.fasta. Bar sequences are printed in fasta format with taxonomic labels (predicted by the RDP classifier) and cOTU ID which may be used for other downstream bioinformatic analyses.<br/>
 
@@ -100,6 +100,15 @@ $ path-to/BarBIQ_code/BarBIQ_Step_1.pl --in path-to/Demo/Data_and_inputfiles_for
 (B) Type the following command in the Terminal or equivalent with adjustment of the path, "path-to", accordingly:<br/>
   ```
 $ path-to/BarBIQ_code/BarBIQ_Step_2.pl --in path-to/Demo/Data_and_inputfiles_for_quick_testing/For_Step2/BarBIQ_example_inputfile_2_S.txt --p path-to/Demo/Data_and_inputfiles_for_quick_testing/For_Step2/BarBIQ_example_parameter_2_S.txt
+  ```
+
+## Optional analysis
+To print the lowest-level taxon of each cOTU predicted by the RDP classifier with a classification bootstrap confidence equal or higher than a given threshold (between 0 and 1; using "--cutoff 0.X" to adjust) after the processing of BarBIQ_Step_2.pl, by using the code BarBIQ_final_bac_con_nomalization_xlsx.pl
+
+  ```
+$ cd path-to/Output_Step2
+$ path-to/BarBIQ_code/BarBIQ_final_bac_con_nomalization_xlsx.pl --count *_annotation_RDP_classifier.txt --total Total_concentration.txt --out BarBIQ_Quantification.xlsx --taxa Classifier --cutoff 0.8
+
   ```
 
 ## Key output results

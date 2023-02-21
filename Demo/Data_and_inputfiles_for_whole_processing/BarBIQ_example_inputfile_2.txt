@@ -1,0 +1,5 @@
+Folder	Index	SampleType	SampleID	Repeat	Multi-seq-detect	Control	Total-conc(copies/mg)	Total-conc-SD
+path-to/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/	S1	Sample	S01	1	Yes	1	96300000        4700000	
+path-to/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/	S2	Sample	S02	1	Yes	1	50400000        6900000	
+path-to/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/	S3      Blank	S03	1	No	1	*	*
+path-to/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Miseq_Run_1/	S4	Blank	S04	1	No	1	*	*

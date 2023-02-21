@@ -108,7 +108,6 @@ To print the lowest-level taxon of each cOTU predicted by the RDP classifier wit
   ```
 $ cd path-to/Output_Step2
 $ path-to/BarBIQ_code/BarBIQ_final_bac_con_nomalization_xlsx.pl --count *_annotation_RDP_classifier.txt --total Total_concentration.txt --out BarBIQ_Quantification.xlsx --taxa Classifier --cutoff 0.8
-
   ```
 
 ## Key output results

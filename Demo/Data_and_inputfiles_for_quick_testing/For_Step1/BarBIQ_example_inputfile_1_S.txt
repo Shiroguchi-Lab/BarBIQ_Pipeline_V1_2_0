@@ -1,7 +1,7 @@
 Index	I1_file	R1_file	R2_file	SampleType
 S1	Sample1_S1_I1_Demo_S.fastq.gz	Sample1_S1_R1_Demo_S.fastq.gz	Sample1_S1_R2_Demo_S.fastq.gz	Sample
 S2	Sample2_S2_I1_Demo_S.fastq.gz	Sample2_S2_R1_Demo_S.fastq.gz	Sample2_S2_R2_Demo_S.fastq.gz	Sample
-S3      Control1_S3_I1_Demo_S.fastq.gz    Control1_S3_R1_Demo_S.fastq.gz    Control1_S3_R2_Demo_S.fastq.gz    Black
-S4	Control2_S4_I1_Demo_S.fastq.gz	Control2_S4_R1_Demo_S.fastq.gz	Control2_S4_R2_Demo_S.fastq.gz	Black
+S3      Control1_S3_I1_Demo_S.fastq.gz    Control1_S3_R1_Demo_S.fastq.gz    Control1_S3_R2_Demo_S.fastq.gz    Blank
+S4	Control2_S4_I1_Demo_S.fastq.gz	Control2_S4_R1_Demo_S.fastq.gz	Control2_S4_R2_Demo_S.fastq.gz	Blank
 S5	SIC1_S5_I1_Demo_S.fastq.gz	SIC1_S5_R1_Demo_S.fastq.gz	SIC1_S5_R2_Demo_S.fastq.gz	SpikeIn
 S6	SIC2_S6_I1_Demo_S.fastq.gz	SIC2_S6_R1_Demo_S.fastq.gz	SIC2_S6_R2_Demo_S.fastq.gz	SpikeIn

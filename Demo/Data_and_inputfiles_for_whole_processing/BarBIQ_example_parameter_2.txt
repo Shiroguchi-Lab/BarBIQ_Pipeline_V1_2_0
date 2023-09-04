@@ -3,7 +3,7 @@
 Output_path:	path-to/BarBIQ_Pipeline_V1_2_0/Demo/Data_and_inputfiles_for_whole_processing/Output_Step2/
 #
 # The directory where all the BarBIQ pipiline codes are saved, don't forget the last "/"
-Perl_code_path:	path-to/BarBIQ_Pipeline_V1_1_0/BarBIQ_code/
+Perl_code_path:	path-to/BarBIQ_Pipeline_V1_2_0/BarBIQ_code/
 #
 # The directory where the RDPTools are installed, don't forget the last "/"
 RDPTools:	path-to/RDPTools/
